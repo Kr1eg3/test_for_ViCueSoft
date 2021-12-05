@@ -9,7 +9,7 @@
 
 PSNR наиболее часто используется для измерения уровня искажений при сжатии изображений. Проще всего его определить через среднеквадратичную ошибку (СКО) или MSE (англ. mean square error). 
 
-$a’$ $a^{\prime}$
+
 
 
 
@@ -21,3 +21,8 @@ ffmpeg -i waterfall_cif.y4m -c:v libx264 -b:v 1M target_1000.mp4
 
 команда для декодинга видеофайла:
 ffmpeg -i target_1000.mp4 -f yuv4mpegpipe decoded_target_1000.y4m
+
+## Компиляция и запуск под Linux с помощью GCC
+```
+g++ read_file.cpp -o app
+./app <Source Folder> <Test Folder> <Number of frames>
