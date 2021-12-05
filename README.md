@@ -76,7 +76,7 @@ g++ read_file.cpp -o app
 ```
 
 ## Rate-Distortion plot
-В результате работы программы были получена искомая метрика, которая была сравнена с PSNR, рассчитаной с помощью программы FFmpeg. А также была посчитана метрика [SSIM](https://medium.com/srm-mic/all-about-structural-similarity-index-ssim-theory-code-in-pytorch-6551b455541e)
+В результате работы программы были получена искомая метрика, которая была сравнена с PSNR, рассчитаной с помощью программы FFmpeg. А также была посчитана метрика [SSIM](https://medium.com/srm-mic/all-about-structural-similarity-index-ssim-theory-code-in-pytorch-6551b455541e). Команда для расчёта PSNR через FFmpeg:
 ```
 ffmpeg -i decoded_target_grayscale_1000.y4m -i waterfall_cif_grayscale.y4m -filter_complex "psnr" -f null /dev/null
 ```
