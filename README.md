@@ -26,6 +26,13 @@ sudo apt install ffmpeg
 
 
 ## Подготовительные действия
+---
+
+<div align="center">
+  <h3>💡 Looking for high-quality interview courses? <a href="https://www.educative.io/explore?search_string=interview&aff=x23W">Educative</a> offers a ton of great courses to improve your interview game 💡</h3>
+</div>
+
+---
 - `01`: С [сайта](https://media.xiph.org/video/derf/) был скачен видеоряд `waterfall_cif.y4m` (далее `refFile`)
 - `02`: Создается новая папка в которой будет хранится `refFile` и выполняется команда, для перевода видео в оттенки серого: 
 ```
