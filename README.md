@@ -29,7 +29,7 @@ sudo apt install ffmpeg
 ---
 
 <div align="center">
-  <h3>💡 Looking for high-quality interview courses? <a href="https://www.educative.io/explore?search_string=interview&aff=x23W">Educative</a> offers a ton of great courses to improve your interview game 💡</h3>
+  <h3>💡 Порядок действий описан для получения данных для одного видео. Чтобы получить исходники для теста видео 2000, 3000, 4000, 5000 kbps нужно повторить пункты `03` - `05` для разных битрейтов. 💡</h3>
 </div>
 
 ---
