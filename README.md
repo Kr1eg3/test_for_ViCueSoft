@@ -1,6 +1,8 @@
 # test_for_ViCueSoft
-Тестовое задание для стажировки в компании ViCueSoft
+
 [![ViCue Soft](https://scontent-hel3-1.xx.fbcdn.net/v/t1.6435-9/100049479_576904839469133_78457503330861056_n.png?_nc_cat=108&ccb=1-5&_nc_sid=973b4a&_nc_ohc=oohtigKncVMAX83Tktk&_nc_ht=scontent-hel3-1.xx&oh=e921e9bcb526f8659fd137b763d0ea50&oe=61D2C460)](https://vicuesoft.com/)
+
+Тестовое задание для стажировки в компании ViCueSoft
 
 ## ТЗ
 Создать приложение для расчёта метрики PSNR.
