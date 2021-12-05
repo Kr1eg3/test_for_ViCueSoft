@@ -64,6 +64,9 @@ ffmpeg -i waterfall_cif.y4m -c:v libx264 -b:v 1M target_1000.mp4
 команда для декодинга видеофайла:
 ffmpeg -i target_1000.mp4 -f yuv4mpegpipe decoded_target_1000.y4m
 
+## Rate-Distortion plot
+![Graph](https://user-images.githubusercontent.com/50653532/144757796-2b5117e4-2831-4457-a45b-31bac1a3a80a.png)
+
 ## Компиляция и запуск под Linux с помощью GCC
 ```
 g++ read_file.cpp -o app
